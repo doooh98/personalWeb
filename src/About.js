@@ -10,8 +10,8 @@ const About = () => {
         <div className="text-section">
           <h1>Coding Experience</h1>
           <p style={{ fontSize: '2.0rem' }}>since 2021, July</p>
-          <p style={{ fontSize: '1.2rem' }}>Enthusiastic about movies, literature, and music, He started Computer Science because He wanted to make literature in computer language through his creativity and literary sense in line with the social trends.</p>
-          <p style={{ fontSize: '1.2rem' }}>He graduated from Virginia Tech with a bachelor's degree in computer science and human-computer interaction as Summa Cum Laude in May, 2024.</p>
+          <p style={{ fontSize: '1.2rem' }}>Enthusiastic about movies, literature, and music, I started Computer Science to write literature in computer language, combining my creativity and literary sense with social trends.</p>
+          <p style={{ fontSize: '1.2rem' }}>I graduated from Virginia Tech with a bachelor's degree in computer science and human-computer interaction as Summa Cum Laude in May, 2024.</p>
           <div className= "contacts">
             <div className="mail">
               <a href="mailto:doooh98@gmail.com">
