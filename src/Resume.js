@@ -66,7 +66,7 @@ const Resume = () => {
     },
     { id: 'awards', title: 'Awards & Certifications', image: './award.jpeg',content: (
         <>
-          <p>Dean’s List issued by Virginia Tech, Fall 2022 - 2023</p>
+          <p>Dean’s List issued by Virginia Tech, Fall 2021 - Spring 2023</p>
           <p><a href="https://www.citiprogram.org/verify/?wb6a819aa-79d7-421a-8c88-a86bb9ca5ea9-60799093" target="_blank" rel="noopener noreferrer">Social and Behavior Research</a> issued by CITI Program, Jan 2024</p>
           <p><a href="https://www.credly.com/badges/8366db78-548b-49b1-9f1e-ee1e0e9fa1c6/linked_in_profile" target="_blank" rel="noopener noreferrer">Unity Essentials</a> issued by Unity, Feb 2024</p>
         </>
