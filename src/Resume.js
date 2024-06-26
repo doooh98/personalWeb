@@ -33,7 +33,7 @@ const Resume = () => {
     { id: 'skills', title: 'Skills', image: './skill.jpeg',content: (
         <>
           <span style={{color: '#493f41' }}>Programming Languages:</span>
-          <p>Java, Python, JavaScript, C, SQL, OOP</p>
+          <p>Java, Python, JavaScript, C, SQL, OOP, Shell</p>
           <span style={{color: '#493f41' }}>Languages:</span> 
           <p>English(fluent), Korean(native), HTML(proficient), CSS(proficient)</p>
           <span style={{color: '#493f41' }}>Programming Tools:</span>
