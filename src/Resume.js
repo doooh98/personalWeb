@@ -59,7 +59,7 @@ const Resume = () => {
           <p> Professor <a href="https://echolab.cs.vt.edu/sangwonlee/" target="_blank" rel="noopener noreferrer">Sangwon Lee (VT)</a></p>
           <p> Produced a YouTube Overlay Comments program to experiment with how it affects viewers' mental state by showing comments on the YouTube video screen</p>
           <p>- YouTube comment data was accessed through YouTube Data API v3, implemented as a Chrome extension to facilitate direct web operation</p>
-          <p>- Used JavaScript and jQuery</p>
+          <p>-  Used JSON to set up configuration for a Chrome extension program and implemented the background and content script (UI) using JavaScript and jQuery 3.4.1. Designed the interface using CSS</p>
           <p>- Research on video and comment-related topics in the human-computer interaction category was conducted across ten papers to develop a program focused on consumer comfort</p>
         </>
       )
