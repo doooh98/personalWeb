@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 
 const Resume = () => {
   const [isOpen, setIsOpen] = useState({
-    researcher: true,
+    SoftwareTester:true,
+    researcher: false,
     fullstack: false,
     hrmanager: false,
     social: false,
@@ -108,6 +109,18 @@ const Resume = () => {
       <h1 className="left-title">Work Experience</h1>
 
 <div className="accordion-container">
+  <div className="accordion-section" onClick={() => toggleSection('Software Tester')}>
+    <div className="accordion-header">
+      <h2>Software Tester</h2>
+      <button className={`toggle-button ${isOpen.SoftwareTester ? 'open' : ''}`}></button>
+    </div>
+    {isOpen.SoftwareTester && (
+      <div className="accordion-content">
+        <p><a href="https://www.samsung.com/us/" target="_blank" rel="noopener noreferrer">Samsung Electronics</a> | Dallas, TX</p>
+        <p>Sep 2024 - </p>
+      </div>
+    )}
+  </div>
   <div className="accordion-section" onClick={() => toggleSection('researcher')}>
     <div className="accordion-header">
       <h2>Researcher</h2>
