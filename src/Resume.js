@@ -5,8 +5,8 @@ const Resume = () => {
     SoftwareTester:true,
     researcher: false,
     fullstack: false,
-    hrmanager: false,
-    social: false,
+    mihan: false,
+    kimlab: false,
     supply: false,
     ksa: false,
     dop: false
@@ -157,36 +157,7 @@ const Resume = () => {
     )}
   </div>
   
-  <div className="accordion-section" onClick={() => toggleSection('hrmanager')}>
-    <div className="accordion-header">
-      <h2>HR Manager</h2>
-      <button className={`toggle-button ${isOpen.hrmanager ? 'open' : ''}`}></button>
-    </div>
-    {isOpen.hrmanager && (
-      <div className="accordion-content">
-        <p>U.S. Korean International Students Association (<a href="https://www.facebook.com/groups/MiHanYuHoei" target="_blank" rel="noopener noreferrer">MiHanYuHoei</a>)</p>
-        <p>Feb 2021 - Oct 2021</p>
-        <p>▪ Chief of the MiHan Alliance (Korean Student Association in U.S. universities)</p>
-        <p>- Managed the group chats and contact lists of 97 KSA presidents to enable support for Korean students needing to transfer under compelling circumstances and to facilitate the sharing of career development opportunities often difficult for Korean students to find on their own</p>
-        <p>- Searched unassociated KSA, and encouraged them to join our alliance through connections</p>
-      </div>
-    )}
-  </div>
-  <div className="accordion-section" onClick={() => toggleSection('social')}>
-    <div className="accordion-header">
-      <h2>Social Media Manager</h2>
-      <button className={`toggle-button ${isOpen.social ? 'open' : ''}`}></button>
-    </div>
-    {isOpen.social && (
-      <div className="accordion-content">
-        <p><a href="https://www.facebook.com/kimlab1002" target="_blank" rel="noopener noreferrer">Kimlab</a></p>
-        <p>Feb 2021 - Oct 2021</p>
-        <p>▪ Administer of Facebook Page "Kimlab, Crypto community".</p>
-        <p>- To support those with limited cryptocurrency knowledge, posted a variety of terms and news related to cryptocurrency, which led to an increase in our group members</p>
-        <p>- Increased group members from 0 to 200 using the Open Chatting function of KakaoTalk</p>
-      </div>
-    )}
-  </div>
+  
   <div className="accordion-section" onClick={() => toggleSection('supply')}>
     <div className="accordion-header">
       <h2>Supply Sergeant</h2>
@@ -216,7 +187,36 @@ const Resume = () => {
       </div>
       <div className='clubs'>
       <h1 className="left-title">Clubs</h1>
-      
+      <div className="accordion-section" onClick={() => toggleSection('mihan')}>
+        <div className="accordion-header">
+          <h2>Korean International Students Alliance(MihanYuHoei)</h2>
+          <button className={`toggle-button ${isOpen.mihan ? 'open' : ''}`}></button>
+        </div>
+        {isOpen.mihan && (
+          <div className="accordion-content">
+            <p>Officer @ USA Korean International Students Association (<a href="https://www.facebook.com/groups/MiHanYuHoei" target="_blank" rel="noopener noreferrer">MiHanYuHoei</a>)</p>
+            <p>Feb 2021 - Oct 2021</p>
+            <p>▪ Chief of the MiHan Alliance (Korean Student Association in U.S. universities)</p>
+            <p>- Managed the group chats and contact lists of 97 KSA presidents to enable support for Korean students needing to transfer under compelling circumstances and to facilitate the sharing of career development opportunities often difficult for Korean students to find on their own</p>
+            <p>- Searched unassociated KSA, and encouraged them to join our alliance through connections</p>
+          </div>
+        )}
+      </div>
+      <div className="accordion-section" onClick={() => toggleSection('kimlab')}>
+        <div className="accordion-header">
+          <h2>Kimlab</h2>
+          <button className={`toggle-button ${isOpen.kimlab ? 'open' : ''}`}></button>
+        </div>
+        {isOpen.kimlab && (
+          <div className="accordion-content">
+            <p>Social Media Manager @ <a href="https://www.facebook.com/kimlab1002" target="_blank" rel="noopener noreferrer">Kimlab</a></p>
+            <p>Feb 2021 - Oct 2021</p>
+            <p>▪ Administer of Facebook Page "Kimlab, Crypto community".</p>
+            <p>- To support those with limited cryptocurrency knowledge, posted a variety of terms and news related to cryptocurrency, which led to an increase in our group members</p>
+            <p>- Increased group members from 0 to 200 using the Open Chatting function of KakaoTalk</p>
+          </div>
+        )}
+      </div>
       <div className="accordion-container">
         <div className="accordion-section" onClick={() => toggleSection('ksa')}>
           <div className="accordion-header">
