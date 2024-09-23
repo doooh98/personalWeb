@@ -191,7 +191,7 @@ const Resume = () => {
       <div className="accordion-container">
         <div className="accordion-section" onClick={() => toggleSection('mihan')}>
           <div className="accordion-header">
-            <h2>Korean International Students Alliance(MihanYuHoei)</h2>
+            <h2>Korean International Students Alliance (MihanYuHoei)</h2>
             <button className={`toggle-button ${isOpen.mihan ? 'open' : ''}`}></button>
           </div>
           {isOpen.mihan && (
